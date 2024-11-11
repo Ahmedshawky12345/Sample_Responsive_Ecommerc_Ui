@@ -1,0 +1,24 @@
+body{
+    font-family: sans-serif;
+  }
+  ul .nav-item a{
+    font-size: 20px;
+    padding: 20px;
+  }
+  .card {
+    margin-bottom: 20px;
+transition: transform 0.3s ease;
+
+}
+
+.card:hover {
+transform: scale(1.05);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.contact-img{
+transition: .34s ease ;
+}
+.contact-img:hover{
+transform: scale(1.05);
+box-shadow:0 8px 16px rgba(0, 0, 0, 0.2) ;
+}
